@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
-import AppHeader from './Components/app-header.js';
-import AppMain from './Components/app-main.js';
-import AppDisplay from './Components/app-display.js';
+import React, { Component } from "react";
+import "./App.css";
+import AppHeader from "./Components/app-header.js";
+import AppMain from "./Components/app-main.js";
+import AppDisplay from "./Components/app-display.js";
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <AppHeader />
         <AppMain />
-         <AppDisplay /> 
+        <AppDisplay />
       </div>
     );
   }
